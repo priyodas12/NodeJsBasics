@@ -17,7 +17,22 @@ console.count('test');
 const func1 = () => { console.trace() }
 const func2 = () => func1();
 
-func2();
+//func2();
+
+const sum = (a, b) => console.log(`Sum: ${a + b}`);
+
+const multiply = (a, b) => console.log(`Multiplication : ${a * b}`);
+
+const mesaureTime = () => {
+	console.time("sum()");
+	sum(1292997812, 239293);
+    console.timeEnd("sum()");
+    console.time('multply()');
+    multiply(1292991212, 239293);
+	console.timeEnd("multply()");
+};
+
+mesaureTime();
 
 
 
