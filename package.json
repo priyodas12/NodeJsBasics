@@ -1,21 +1,29 @@
 {
-  "name": "nodejsbasics",
-  "version": "1.0.0",
-  "description": "node js basic features",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
-  },
-  "author": "priyobrato.das",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "progress": "^2.0.3"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.21",
-    "@types/node": "^20.14.9",
-    "typescript": "^5.5.3"
-  }
+	"name": "nodejsbasics",
+	"version": "1.0.0",
+	"description": "node js basic features",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"author": "priyobrato.das",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^5.3.0",
+		"dotenv": "^16.4.5",
+		"esm": "^3.2.25",
+		"progress": "^2.0.3",
+		"lodash": "^4.17.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.24.7",
+		"@babel/core": "^7.24.7",
+		"@babel/plugin-transform-modules-commonjs": "^7.24.7",
+		"@babel/preset-env": "^7.24.7",
+		"@types/express": "^4.17.21",
+		"@types/node": "^20.14.9",
+		"typescript": "^5.5.3"
+	}
 }
